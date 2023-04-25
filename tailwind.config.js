@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        'airbnb-color':'rgb(244 63 94)'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
